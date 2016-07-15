@@ -12,6 +12,12 @@ case $(hostname) in
     "sup-mail")
         export userhostcolor="075"
         ;;
+    "mail")
+        export userhostcolor="075"
+        ;;
+    "gcal")
+        export userhostcolor="074"
+        ;;
     *)
         export userhostcolor="40"
         ;;
