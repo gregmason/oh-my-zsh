@@ -16,7 +16,7 @@ case $(hostname) in
         export userhostcolor="075"
         ;;
     "gcal")
-        export userhostcolor="074"
+        export userhostcolor="073"
         ;;
     *)
         export userhostcolor="40"
