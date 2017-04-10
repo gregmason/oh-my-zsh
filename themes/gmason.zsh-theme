@@ -27,7 +27,7 @@ esac
 local time='%{$fg[cyan]%}%T%{$reset_color%}'
 local user_host='%{$FX[bold]$FG[$userhostcolor]%}%n%{$FG[201]%}@%{$reset_color$FX[bold]$FG[$userhostcolor]%}%m%{$reset_color%}'
 local current_dir='%{$FG[111]%}%~%{$reset_color%}'
-local git_branch='$(git_prompt_info)$(bzr_prompt_info)%{$reset_color%}'
+local git_branch='$(git_prompt_info)%{$reset_color%}'
 
 PROMPT="${time} ${user_host} ${current_dir} ${git_branch}
 %{$fg_bold[yellow]%}%B$%b %{$reset_color%}"
