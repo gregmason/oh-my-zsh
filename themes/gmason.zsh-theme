@@ -18,6 +18,9 @@ case $(hostname) in
     "gcal")
         export userhostcolor="073"
         ;;
+    "umami")
+        export userhostcolor="051"
+        ;;
     *)
         export userhostcolor="40"
         ;;
