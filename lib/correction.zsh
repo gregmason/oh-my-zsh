@@ -9,6 +9,7 @@ if [[ "$ENABLE_CORRECTION" == "true" ]]; then
   alias mv='nocorrect mv'
   alias mysql='nocorrect mysql'
   alias sudo='nocorrect sudo'
-
+  alias git status='nocorrect git status'
+=======
   setopt correct_all
 fi
